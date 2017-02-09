@@ -69,7 +69,6 @@
             this.dockPanelEVAvima = new DevExpress.XtraBars.Docking.DockPanel();
             this.controlContainer1 = new DevExpress.XtraBars.Docking.ControlContainer();
             this.pivotGridControlAVIMAVentas = new DevExpress.XtraPivotGrid.PivotGridControl();
-            this.xpServerCollectionSourceAVIMAVentas = new DevExpress.Xpo.XPServerCollectionSource(this.components);
             this.pivotGridField11 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.pivotGridField12 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.pivotGridField13 = new DevExpress.XtraPivotGrid.PivotGridField();
@@ -80,6 +79,7 @@
             this.pivotGridField18 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.pivotGridField19 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.pivotGridField20 = new DevExpress.XtraPivotGrid.PivotGridField();
+            this.xpServerCollectionSourceAVIMAVentas = new DevExpress.Xpo.XPServerCollectionSource(this.components);
             this.documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
             this.tabbedView1 = new DevExpress.XtraBars.Docking2010.Views.Tabbed.TabbedView(this.components);
             this.splashScreenManagerCarga = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::estadisticas_avima.WaitForm1), true, true);
@@ -168,7 +168,7 @@
             // 
             // barButtonItem4
             // 
-            this.barButtonItem4.Caption = "Ingetive 2017 v.1.5";
+            this.barButtonItem4.Caption = "Ingetive 2017 v.2.0";
             this.barButtonItem4.Id = 4;
             this.barButtonItem4.Name = "barButtonItem4";
             // 
@@ -449,7 +449,6 @@
             // 
             // pivotGridControlAVIMAVentas
             // 
-            this.pivotGridControlAVIMAVentas.DataSource = this.xpServerCollectionSourceAVIMAVentas;
             this.pivotGridControlAVIMAVentas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pivotGridControlAVIMAVentas.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
             this.pivotGridField11,
@@ -466,11 +465,6 @@
             this.pivotGridControlAVIMAVentas.Name = "pivotGridControlAVIMAVentas";
             this.pivotGridControlAVIMAVentas.Size = new System.Drawing.Size(1045, 391);
             this.pivotGridControlAVIMAVentas.TabIndex = 0;
-            // 
-            // xpServerCollectionSourceAVIMAVentas
-            // 
-            this.xpServerCollectionSourceAVIMAVentas.ObjectType = typeof(estadisticas_avima.avima.AvimaVentas);
-            this.xpServerCollectionSourceAVIMAVentas.Session = this.sessionGeneral;
             // 
             // pivotGridField11
             // 
@@ -545,6 +539,11 @@
             this.pivotGridField20.Caption = "Cantidad";
             this.pivotGridField20.FieldName = "Quantity";
             this.pivotGridField20.Name = "pivotGridField20";
+            // 
+            // xpServerCollectionSourceAVIMAVentas
+            // 
+            this.xpServerCollectionSourceAVIMAVentas.ObjectType = typeof(estadisticas_avima.avima.AvimaVentas);
+            this.xpServerCollectionSourceAVIMAVentas.Session = this.sessionGeneral;
             // 
             // documentManager1
             // 

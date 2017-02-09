@@ -39,8 +39,8 @@ namespace estadisticas_avima
             splashScreenManagerCarga.ShowWaitForm();
             documentManager1.View.Controller.Dock(dockPanelEVAvima);
             dockPanelEVAvima.Show();
-            //pivotGridControlAVIMAVentas.DataSource = (from AV in new XPQuery<estadisticas_avima.avima.AVIMA_Ventas>(sessionGeneral)
-                                                       //select AV).ToList();
+            pivotGridControlAVIMAVentas.DataSource = (from AV in new XPQuery<estadisticas_avima.avima.AvimaVentas>(sessionGeneral)
+                                                      select AV).ToList();
             splashScreenManagerCarga.CloseWaitForm();
         }
 

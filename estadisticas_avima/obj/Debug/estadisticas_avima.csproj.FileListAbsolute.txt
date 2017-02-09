@@ -148,16 +148,7 @@ C:\Users\Unai52\Documents\Visual Studio 2015\Projects\estadisticas_avima\estadis
 C:\Users\Unai52\Documents\Visual Studio 2015\Projects\estadisticas_avima\estadisticas_avima\obj\Debug\estadisticas_avima.application
 C:\Users\Unai52\Documents\Visual Studio 2015\Projects\estadisticas_avima\estadisticas_avima\obj\Debug\estadisticas_avima.exe
 C:\Users\Unai52\Documents\Visual Studio 2015\Projects\estadisticas_avima\estadisticas_avima\obj\Debug\estadisticas_avima.pdb
-C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.Form1.resources
-C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.Properties.Resources.resources
-C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.SplashScreenRemaned.resources
-C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.WaitForm1.resources
-C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.SplashScreenRemaned.en.resources
-C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.SplashScreenRemaned.es.resources
-C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.csproj.GenerateResource.Cache
-C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.exe.licenses
-C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.exe
-C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.pdb
+C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\bin\Debug\avima.accdb
 C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\bin\Debug\estadisticas_avima.exe.config
 C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\bin\Debug\estadisticas_avima.exe.manifest
 C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\bin\Debug\estadisticas_avima.application
@@ -293,9 +284,18 @@ C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\bin\Debug\de\
 C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\bin\Debug\es\DevExpress.Office.v15.1.Core.resources.dll
 C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\bin\Debug\ja\DevExpress.Office.v15.1.Core.resources.dll
 C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\bin\Debug\ru\DevExpress.Office.v15.1.Core.resources.dll
+C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.Form1.resources
+C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.Properties.Resources.resources
+C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.SplashScreenRemaned.resources
+C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.WaitForm1.resources
+C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.SplashScreenRemaned.en.resources
+C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.SplashScreenRemaned.es.resources
+C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.csproj.GenerateResource.Cache
+C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.exe.licenses
 C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\en\estadisticas_avima.resources.dll
 C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\es\estadisticas_avima.resources.dll
 C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.TrustInfo.xml
 C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.exe.manifest
 C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.application
-C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.csprojResolveAssemblyReference.cache
+C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.exe
+C:\Users\Unai52\Source\Repos\Estadisticas_Avima\estadisticas_avima\obj\Debug\estadisticas_avima.pdb

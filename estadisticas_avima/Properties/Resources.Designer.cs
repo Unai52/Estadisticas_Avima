@@ -59,15 +59,5 @@ namespace estadisticas_avima.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
-        /// </summary>
-        public static System.Drawing.Icon esta {
-            get {
-                object obj = ResourceManager.GetObject("esta", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
     }
 }

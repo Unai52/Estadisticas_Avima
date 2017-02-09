@@ -813,13 +813,13 @@
     <value>22, 286</value>
   </data>
   <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 13</value>
+    <value>90, 13</value>
   </data>
   <data name="labelControl1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="labelControl1.Text" xml:space="preserve">
-    <value>Copyright © 2017 v.1.0</value>
+    <value>Copyright © 2017 </value>
   </data>
   <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
     <value>labelControl1</value>

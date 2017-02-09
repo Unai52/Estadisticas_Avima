@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="estadisticas_avima.exe" version="1.5.0.15" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
-  <description asmv2:iconFile="esta.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <asmv1:assemblyIdentity name="estadisticas_avima.exe" version="2.0.0.23" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="estadisticas_avima" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -1303,14 +1302,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="estadisticas_avima.exe" size="1670144">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="estadisticas_avima.exe" size="1263616">
       <assemblyIdentity name="estadisticas_avima" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>csp4R2xO8+aprezzbz3DufngVNeNsb1wu5h80OsEvVE=</dsig:DigestValue>
+        <dsig:DigestValue>pqtGgzclVDgF9/JTD06IWmH5hiMy7xNzUIHr1MrllvE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1322,7 +1321,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iqsUQfUJ/OpEBqCNqUyETkhAHeiYgTj62o0l8b+4gO8=</dsig:DigestValue>
+        <dsig:DigestValue>BjngKXwCz5No4t/ksxiv59WQauKkUnBG9bQEZH0EojM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1334,10 +1333,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pHbgMhZGcAQBLOoTTyNLNBYN2/p3zd2m76C5iI2QC+0=</dsig:DigestValue>
+        <dsig:DigestValue>t83Jmuvies6dNbJ2UrHx/JXcBD6wGAvKRsik8AFNviE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="avima.accdb" size="83341312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pt9sZKnjc2DCum679o0LZDuLAbc3oeN3mxSwRbZqRMw=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="esta.ico" size="202814">
     <hash>
       <dsig:Transforms>
