@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ca1e578a-3b2f-4ba6-bab0-bbc4a8e05a9c" dbName="avima" connectionInfo="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxEZXZFeHByZXNzWHBvR2VuZXJhdG9yU2V0dGluZ3MgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgcHJvdmlkZXJLZXk9IkFjY2VzczIwMDciPg0KICA8cGFyYW1ldGVyPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJkYXRhYmFzZSIgdmFsdWU9IkM6XFVzZXJzXFVuYWk1MlxEb2N1bWVudHNcVmlzdWFsIFN0dWRpbyAyMDE1XFByb2plY3RzXGVzdGFkaXN0aWNhc19hdmltYVxlc3RhZGlzdGljYXNfYXZpbWFcYmluXERlYnVnXGF2aW1hLmFjY2RiIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJwYXNzd29yZCIgdmFsdWU9IiIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0icmVhZCBvbmx5IiB2YWx1ZT0iMSIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0iZ2VuZXJhdGVDb25uZWN0aW9uSGVscGVyIiB2YWx1ZT0idHJ1ZSIgLz4NCiAgPC9wYXJhbWV0ZXI+DQo8L0RldkV4cHJlc3NYcG9HZW5lcmF0b3JTZXR0aW5ncz4=" namespace="estadisticas_avima.avima" connectionString="XpoProvider=MSAccess;Provider=Microsoft.ACE.OLEDB.12.0;Mode=Share Deny None;data source=C:\Users\Unai52\Documents\Visual Studio 2015\Projects\estadisticas_avima\estadisticas_avima\bin\Debug\avima.accdb;Jet OLEDB:Database Password=;" dataBaseShemaInfo="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" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <comments>
+    <dataBaseObjectModelHasComments Id="82b9efb8-3567-4b59-8375-7eb3b4cdc8dd">
+      <comment Id="96c468e0-a761-462e-a7ae-7e3eb5209855" text="The 'Id' index is ignored, because 'Id' is a key" name="Avima_PurchaseLineComment">
+        <subjects>
+          <commentReferencesSubjects Id="4941936b-2c56-4e07-807a-368f710431c5">
+            <xpObjectMoniker Id="9e48eb33-55c1-4d54-b3bd-f54b4a151009" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+    <dataBaseObjectModelHasComments Id="bd9911f7-edb0-451d-99fa-18efbbf8bb85">
+      <comment Id="849e02e5-c9aa-47b8-912f-be01dcdabb1a" text="The 'Id' index is ignored, because 'Id' is a key" name="AVIMA_VentasComment">
+        <subjects>
+          <commentReferencesSubjects Id="31e35463-97e4-4272-8818-fcfd8fa0c478">
+            <xpObjectMoniker Id="34a844c3-397c-49aa-923c-edfe4e02ca56" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+  </comments>
+  <classes>
+    <dataBaseObjectModelHasClasses Id="9ce3ff96-c16d-4b91-8b06-33def48f3689">
+      <xpObject Id="9e48eb33-55c1-4d54-b3bd-f54b4a151009" name="Avima_PurchaseLine" baseClass="XPLiteObject" userFileName="Avima_PurchaseLine" designerFileName="Avima_PurchaseLine.Designer" className="Avima_PurchaseLine" virtualBaseClass="XPLiteObject" persistent="Avima_PurchaseLine" virtualName="Avima_PurchaseLine">
+        <fields>
+          <generalXpObjectHasFields Id="f7e9df94-c5b6-4d30-919c-f299c3d6081d">
+            <field Id="4b1d3757-b665-4a59-a117-86ad8f72aab3" name="Description" persistent="Description" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="903df7d7-2c87-4d8e-83bc-13a0dd910e29">
+            <field Id="a81a5769-0656-4eed-859c-04ac5d6ccb16" name="DocumentNo_" persistent="Document No_" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fca9d64e-5b75-46af-9bd9-77dc30878989">
+            <field Id="aead2a5c-034d-4543-9dbb-ab623481923c" name="ExpectedReceiptDate" columnType="DateTime" persistent="Expected Receipt Date" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1e053c4a-8fd7-4781-b683-03ef0c1cdf14">
+            <field Id="71e98503-74cc-4e71-8db5-c5622af2f46b" name="Id" columnType="Int32" key="true" isIdentity="true" persistent="Id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="96223e7f-c996-498d-9612-c1eeb44c1987">
+            <field Id="e7a3a56e-e5a5-4d1f-8797-f96435cba5a9" name="ItemCategoryCode" persistent="Item Category Code" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2a369b3d-7308-49ec-9867-e6d9e38a9ba2">
+            <field Id="abc4baf9-60e5-4e8f-82ce-34f01c1d8f75" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d93b14ca-a043-4d35-9ed8-b5bd1548275a">
+            <field Id="49574c4d-8da7-46e9-ad79-e96a5b8b4d69" name="No_" persistent="No_" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e66ce78e-a4d1-4343-bff9-7f46cae5b812">
+            <field Id="f2df4258-c0f2-4228-ad13-711229885fe3" name="ProductGroupCode" columnType="Double" persistent="Product Group Code" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8d92cb20-678f-4c20-b815-f1953188e01b">
+            <field Id="8d4b3029-0d96-4def-ae38-c602d8e8de70" name="Quantity" columnType="Double" persistent="Quantity" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="40df7f77-96ce-4b99-a0a5-8fe6cd73b985">
+            <field Id="8210323e-502e-4540-b690-9ad2607ecf8c" name="UnitCost" columnType="Double" persistent="Unit Cost" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="312fee94-ae13-455d-91e7-0bcdbbdc28e6">
+      <xpObject Id="34a844c3-397c-49aa-923c-edfe4e02ca56" name="AVIMA_Ventas" baseClass="XPLiteObject" userFileName="AVIMA_Ventas" designerFileName="AVIMA_Ventas.Designer" className="AVIMA_Ventas" virtualBaseClass="XPLiteObject" persistent="AVIMA_Ventas" virtualName="AVIMA_Ventas">
+        <fields>
+          <generalXpObjectHasFields Id="8580a10a-0f4a-4176-95d3-1a37ff654425">
+            <field Id="d905f5fe-ef20-4a33-a201-e9bcae95ef5d" name="Description" persistent="Description" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9370ede5-f4cc-4fc7-a619-15647627cc59">
+            <field Id="0dd78a54-48fc-47db-bc12-670eb437a3e7" name="DocumentNo_" persistent="Document No_" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a19a167e-e7aa-40a4-a299-66debef1c978">
+            <field Id="1069f0a8-fca8-40aa-9265-7b524f8030d9" name="Id" columnType="Int32" key="true" isIdentity="true" persistent="Id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="30c32843-b794-4b42-b75b-e4244972b31f">
+            <field Id="df1f58b1-1287-47d7-80fe-5d5a64b50f5d" name="ItemCategoryCode" persistent="Item Category Code" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="69eb9c70-b8f4-4021-b35e-432b48d1e77e">
+            <field Id="5b94ef2b-1dd4-4172-86c5-18aa989d6c6c" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9bea2092-d629-4fb7-a979-0c204a0e8333">
+            <field Id="a126ed1e-a86d-42fa-8eb0-b4999d4e8bc2" name="No_" persistent="No_" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="255" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="1097084e-0cdf-4bac-8cca-9ed3b1756d43">
+            <field Id="95ad87d8-eb6b-4719-b3d0-b6c2d1e7b91c" name="ProductGroupCode" columnType="Double" persistent="Product Group Code" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="eb2dabc7-5a1c-4e75-8764-4dcd6ca32072">
+            <field Id="60005235-ac1c-4c5a-98ea-360cab073332" name="Quantity" columnType="Double" persistent="Quantity" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6d0c7b74-f17e-4615-9e60-07a7946732d4">
+            <field Id="fc11ca66-db7f-4d0a-88aa-bb430dd297c4" name="ShipmentDate" columnType="DateTime" persistent="Shipment Date" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="8f11734d-498b-4c3b-912b-3e59cba14189">
+            <field Id="359cf7e5-0a29-4b87-8573-76e26e11ca4c" name="UnitCost" columnType="Double" persistent="Unit Cost" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

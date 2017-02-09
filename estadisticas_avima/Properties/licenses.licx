@@ -1,0 +1,6 @@
+DevExpress.XtraBars.Docking.DockManager, DevExpress.XtraBars.v15.1, Version=15.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraBars.Docking2010.DocumentManager, DevExpress.XtraBars.v15.1, Version=15.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraEditors.PictureEdit, DevExpress.XtraEditors.v15.1, Version=15.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraBars.Ribbon.RibbonControl, DevExpress.XtraBars.v15.1, Version=15.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.XtraPivotGrid.PivotGridControl, DevExpress.XtraPivotGrid.v15.1, Version=15.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpo.Session, DevExpress.Xpo.v15.1, Version=15.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
