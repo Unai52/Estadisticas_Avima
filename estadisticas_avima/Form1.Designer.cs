@@ -44,6 +44,7 @@
             this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
@@ -68,6 +69,7 @@
             this.dockPanelEVAvima = new DevExpress.XtraBars.Docking.DockPanel();
             this.controlContainer1 = new DevExpress.XtraBars.Docking.ControlContainer();
             this.pivotGridControlAVIMAVentas = new DevExpress.XtraPivotGrid.PivotGridControl();
+            this.xpServerCollectionSourceAVIMAVentas = new DevExpress.Xpo.XPServerCollectionSource(this.components);
             this.pivotGridField11 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.pivotGridField12 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.pivotGridField13 = new DevExpress.XtraPivotGrid.PivotGridField();
@@ -81,8 +83,6 @@
             this.documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(this.components);
             this.tabbedView1 = new DevExpress.XtraBars.Docking2010.Views.Tabbed.TabbedView(this.components);
             this.splashScreenManagerCarga = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::estadisticas_avima.WaitForm1), true, true);
-            this.xpServerCollectionSourceAVIMAVentas = new DevExpress.Xpo.XPServerCollectionSource(this.components);
-            this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             xpServerCollectionSourceAVIMACompras = new DevExpress.Xpo.XPServerCollectionSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(xpServerCollectionSourceAVIMACompras)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sessionGeneral)).BeginInit();
@@ -96,9 +96,9 @@
             this.dockPanelEVAvima.SuspendLayout();
             this.controlContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControlAVIMAVentas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xpServerCollectionSourceAVIMAVentas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xpServerCollectionSourceAVIMAVentas)).BeginInit();
             this.SuspendLayout();
             // 
             // xpServerCollectionSourceAVIMACompras
@@ -219,6 +219,13 @@
             this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem3);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             this.ribbonPageGroup1.Text = "Compras Avima";
+            // 
+            // ribbonPageGroup3
+            // 
+            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem6);
+            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem7);
+            this.ribbonPageGroup3.Name = "ribbonPageGroup3";
+            this.ribbonPageGroup3.Text = "Ventas Avima";
             // 
             // ribbonPage2
             // 
@@ -442,6 +449,7 @@
             // 
             // pivotGridControlAVIMAVentas
             // 
+            this.pivotGridControlAVIMAVentas.DataSource = this.xpServerCollectionSourceAVIMAVentas;
             this.pivotGridControlAVIMAVentas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pivotGridControlAVIMAVentas.Fields.AddRange(new DevExpress.XtraPivotGrid.PivotGridField[] {
             this.pivotGridField11,
@@ -458,6 +466,11 @@
             this.pivotGridControlAVIMAVentas.Name = "pivotGridControlAVIMAVentas";
             this.pivotGridControlAVIMAVentas.Size = new System.Drawing.Size(1045, 391);
             this.pivotGridControlAVIMAVentas.TabIndex = 0;
+            // 
+            // xpServerCollectionSourceAVIMAVentas
+            // 
+            this.xpServerCollectionSourceAVIMAVentas.ObjectType = typeof(estadisticas_avima.avima.AvimaVentas);
+            this.xpServerCollectionSourceAVIMAVentas.Session = this.sessionGeneral;
             // 
             // pivotGridField11
             // 
@@ -522,8 +535,8 @@
             // pivotGridField19
             // 
             this.pivotGridField19.AreaIndex = 8;
-            this.pivotGridField19.Caption = "Coste Unitario";
-            this.pivotGridField19.FieldName = "UnitCost";
+            this.pivotGridField19.Caption = "Precio Unitario Neto";
+            this.pivotGridField19.FieldName = "PrecioIndividualNeto";
             this.pivotGridField19.Name = "pivotGridField19";
             // 
             // pivotGridField20
@@ -545,18 +558,6 @@
             // 
             this.splashScreenManagerCarga.ClosingDelay = 500;
             // 
-            // xpServerCollectionSourceAVIMAVentas
-            // 
-            this.xpServerCollectionSourceAVIMAVentas.ObjectType = typeof(estadisticas_avima.avima.AVIMA_Ventas);
-            this.xpServerCollectionSourceAVIMAVentas.Session = this.sessionGeneral;
-            // 
-            // ribbonPageGroup3
-            // 
-            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem6);
-            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem7);
-            this.ribbonPageGroup3.Name = "ribbonPageGroup3";
-            this.ribbonPageGroup3.Text = "Ventas Avima";
-            // 
             // Form1
             // 
             this.AllowFormGlass = DevExpress.Utils.DefaultBoolean.False;
@@ -565,8 +566,10 @@
             this.ClientSize = new System.Drawing.Size(1053, 592);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Ribbon = this.ribbonControl1;
+            this.ShowIcon = false;
             this.StatusBar = this.ribbonStatusBar1;
             this.Text = "Remaned 2017";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -582,9 +585,9 @@
             this.dockPanelEVAvima.ResumeLayout(false);
             this.controlContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControlAVIMAVentas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xpServerCollectionSourceAVIMAVentas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.documentManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xpServerCollectionSourceAVIMAVentas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

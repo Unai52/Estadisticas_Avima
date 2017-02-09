@@ -15,7 +15,7 @@ namespace estadisticas_avima.avima
 {
     public static class ConnectionHelper
     {
-        public const string ConnectionString = @"XpoProvider=MSAccess;Provider=Microsoft.ACE.OLEDB.12.0;Mode=Share Deny None;data source=C:\Users\Unai52\Documents\Visual Studio 2015\Projects\estadisticas_avima\estadisticas_avima\bin\Debug\avima.accdb;Jet OLEDB:Database Password=;";
+        public const string ConnectionString = @"XpoProvider=MSAccess;Provider=Microsoft.ACE.OLEDB.12.0;Mode=Share Deny None;data source=avima.accdb;Jet OLEDB:Database Password=;";
         public static void Connect(DevExpress.Xpo.DB.AutoCreateOption autoCreateOption)
         {
             XpoDefault.DataLayer = XpoDefault.GetDataLayer(ConnectionString, autoCreateOption);

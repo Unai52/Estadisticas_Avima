@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="estadisticas_avima.exe" version="1.4.0.15" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="estadisticas_avima.exe" version="1.5.0.15" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="esta.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -1303,14 +1303,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="estadisticas_avima.exe" size="1467392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="estadisticas_avima.exe" size="1670144">
       <assemblyIdentity name="estadisticas_avima" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0meFc5tlVJpaYJXydZ4cu3GBfF8nCh4A90oVEBbRaZM=</dsig:DigestValue>
+        <dsig:DigestValue>csp4R2xO8+aprezzbz3DufngVNeNsb1wu5h80OsEvVE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1322,7 +1322,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fXRW4lrHrrDism3FAYo1TekP+6CnZVUqAVzVgnS8+3Y=</dsig:DigestValue>
+        <dsig:DigestValue>iqsUQfUJ/OpEBqCNqUyETkhAHeiYgTj62o0l8b+4gO8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1334,7 +1334,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZTr24HM8mdCtuu5pMjzDPQOjUriZvuMgriEAbru/yVw=</dsig:DigestValue>
+        <dsig:DigestValue>pHbgMhZGcAQBLOoTTyNLNBYN2/p3zd2m76C5iI2QC+0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -13,7 +13,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>ftp://ftp.remaned.net/estadisticasPivoteadas/</PublishUrl>
+    <PublishUrl>C:\Users\Unai52\Desktop\EstadisticasPivoteadas\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -29,8 +29,8 @@
     <SuiteName>Remaned</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>15</ApplicationRevision>
-    <ApplicationVersion>1.4.0.%2a</ApplicationVersion>
+    <ApplicationRevision>16</ApplicationRevision>
+    <ApplicationVersion>1.5.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -117,13 +117,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ORMDataModelAvimaCode\AvimaVentas.cs" />
+    <Compile Include="ORMDataModelAvimaCode\AvimaVentas.Designer.cs">
+      <DependentUpon>AvimaVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="ORMDataModelAvimaCode\Avima_PurchaseLine.cs" />
     <Compile Include="ORMDataModelAvimaCode\Avima_PurchaseLine.Designer.cs">
       <DependentUpon>Avima_PurchaseLine.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ORMDataModelAvimaCode\AVIMA_Ventas.cs" />
-    <Compile Include="ORMDataModelAvimaCode\AVIMA_Ventas.Designer.cs">
-      <DependentUpon>AVIMA_Ventas.cs</DependentUpon>
     </Compile>
     <Compile Include="ORMDataModelAvimaCode\ConnectionHelper.cs" />
     <Compile Include="Program.cs" />
